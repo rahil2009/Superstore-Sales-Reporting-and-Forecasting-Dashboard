@@ -1,0 +1,6 @@
+streamlit==1.23.0
+urlextract
+matplotlib
+wordcloud
+pandas
+numpy
