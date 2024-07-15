@@ -22,3 +22,10 @@ video_file = open('output.mp4', 'rb')
 
 video_bytes = video_file.read()
 st.video(video_bytes)
+
+
+st.text("\n") 
+url = "https://drive.google.com/drive/folders/1tm9luWCHwlutO57N-5pB-mVm80-jUZdK?usp=sharing"
+st.write(
+        "Link to project No:1 [Smart Refrigerator Object Detection and Tracking](%s)" % url
+)
